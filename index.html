@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinária Alemã</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Sobre a Culinária Alemã</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="intro-text">
+            <h1>Culinária Alemã</h1>
+            <p>A culinária da Alemanha varia de região para região. As regiões do sul da Alemanha, por exemplo, compartilham uma cultura culinária com a Suíça e com a Áustria. A carne de porco, bovina e de aves são as principais variedades de carne consumida na Alemanha, sendo a carne de porco a mais popular.</p>
+        </div>
+
+    <main id="menu" class="menu-container">
+        <div class="dish-row">
+            <div class="dish">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wei%C3%9Fwurst-1.jpg/1200px-Wei%C3%9Fwurst-1.jpg" alt="Weisswürst">
+                <p>Weisswürst</p>
+                <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wei%C3%9Fwurst-1.jpg/1200px-Wei%C3%9Fwurst-1.jpg" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-eisbein-joelho-de-porco.jpg?v=1659291362" alt="Eisbein">
+                <p>Eisbein</p>
+                <a href="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-eisbein-joelho-de-porco.jpg?v=1659291362" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-sauerkraut-chucrute.jpg?v=1659291338" alt="Sauerkraut">
+                <p>Sauerkraut</p>
+                <a href="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-sauerkraut-chucrute.jpg?v=1659291338" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+        </div>
+
+        <div class="dish-row">
+            <div class="dish">
+                <img src="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-leberkase.jpg?v=1659291317" alt="Leberkäse">
+                <p>Leberkäse</p>
+                <a href="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-leberkase.jpg?v=1659291317" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-krapfen-bola-de-berlim.jpg?v=1659291295" alt="Krapfen">
+                <p>Krapfen</p>
+                <a href="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-krapfen-bola-de-berlim.jpg?v=1659291295" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-schupfnudeln.jpg?v=1659291272" alt="Schupfnudeln">
+                <p>Schupfnudeln</p>
+                <a href="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-schupfnudeln.jpg?v=1659291272" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+        </div>
+
+        <div class="dish-row">
+            <div class="dish">
+                <img src="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-brezel-pretzel.jpg?v=1659291242" alt="Brezel">
+                <p>Brezel</p>
+                <a href="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-brezel-pretzel.jpg?v=1659291242" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-Schnitzel.jpg?v=1659291471" alt="Schnitzel">
+                <p>Schnitzel</p>
+                <a href="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-Schnitzel.jpg?v=1659291471" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-Kasespatzle.jpg?v=1659291530" alt="Käsespätzle">
+                <p>Käsespätzle</p>
+                <a href="https://cdn.shopify.com/s/files/1/0637/2609/2501/files/oficina-de-inverno-comidas-tipicas-da-alemanha-Kasespatzle.jpg?v=1659291530" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Culinária Estadunidense. Todos os direitos reservados.</p>
+      
+    </footer>
+
+    <script>
+        function lerDescricao(botao) {
+            window.speechSynthesis.cancel();
+            const descricaoImagem = botao.parentElement.querySelector('img').alt;
+            const mensagem = new SpeechSynthesisUtterance(descricaoImagem);
+            window.speechSynthesis.speak(mensagem);
+        }
+    </script>
+</body>
+</html>
